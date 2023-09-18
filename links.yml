@@ -11,9 +11,9 @@ keywords: 友情链接, SkyBasic, AmiyaBot, Github, SSG
 # 友情链接描述（可选）
 description: 天基的兔兔链接一览
 # 友情链接页面 URL（可选）
-url: /
+url: https://links-sal5.onrender.com
 # Favicon（可选）
-shortcut_icon: https://avatars.githubusercontent.com/u/91052735?s=70&v=4
+shortcut_icon: https://links-sal5.onrender.com/assets/images/favicorn_logosc/favicon.ico
 # 社交分享图片（可选）
 og_img: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
 # 主页 URL
