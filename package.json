@@ -1,0 +1,23 @@
+{
+  "name": "links",
+  "version": "1.0.0",
+  "description": "a collection of links",
+  "main": "index.hbs",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wutongshufqw/links.git"
+  },
+  "keywords": [
+    "links"
+  ],
+  "author": "wutongshufqw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wutongshufqw/links/issues"
+  },
+  "homepage": "https://github.com/wutongshufqw/links#readme",
+  "dependencies": {
+    "geneasy": "^0.1.2"
+  }
+}
