@@ -35,6 +35,11 @@ categories:
     hide_menu: false
     icon: linecons-star
     links:
+      - title: 明日方舟
+        logo: ../assets/images/arknights/arknights.jpg
+        url: https://ak.hypergryph.com/
+        description: 《明日方舟》是一款魔物主题的策略手游。在游戏中，玩家将管理一艘满载“魔物干员”的方舟，为调查来源神秘的矿石灾难而踏上旅途。在这个宽广而危机四伏的世界中，你或许会看到废土中的城市废墟，或许会看到仿若幻境的亚人国度，或许会遭遇无法解读的神秘，或许参与无比残酷的战争。在有关幻想与异种生命的世界中，体验史诗与想象，情感与牵绊！
+        tags: 明日方舟,明日方舟官网,明日方舟手游,二次元,明日方舟Arknights
       - title: 森空岛
         logo: ../assets/images/arknights/skland.png
         url: https://www.skland.com/
@@ -45,6 +50,21 @@ categories:
         url: https://web-api.skland.com/account/info/hg
         description: 获取森空岛登录凭证
         tags: 森空岛, token
+      - title: PRTS-WIKI
+        logo: ../assets/images/arknights/prts.png
+        url: https://prts.wiki/w/%E9%A6%96%E9%A1%B5
+        description: PRTS是一个非盈利性质的明日方舟资料Wiki网站
+        tags: PRTS,明日方舟,明日方舟Arknights,Arknights,明日方舟wiki
+      - title: 企鹅物流数据统计
+        logo: ../assets/images/arknights/penguin_stats_logo.webp
+        url: https://penguin-stats.cn/
+        description: 企鹅物流数据统计是企鹅物流旗下数据处理部门，致力于明日方舟各素材的掉率统计。
+        tags: 企鹅物流,明日方舟,明日方舟Arknights,Arknights,企鹅物流数据统计
+      - title: 一图流
+        logo: ../assets/images/arknights/one.png
+        url: https://yituliu.site/
+        description: 明日方舟材料掉落地图效率,采购中心性价比,活动商店性价比,物品价值一览
+        tags: 素材获取,一图流,明日方舟,攒抽计算器,公招招募计算,基建排班生成器,刷图推荐,性价比,公开招募,掉率
 
   - category: 修仙
     hide_menu: false
