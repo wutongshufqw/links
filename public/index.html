@@ -19,6 +19,8 @@
       if(second >= 0) {
         let elementById = document.getElementById('time');
         elementById.innerHTML = second + "";
+        //修改页面标题
+        document.title = second + "秒之后自动跳转页面...";
       } else {
         location.href = "/links"
       }
