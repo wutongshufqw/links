@@ -56,7 +56,7 @@ categories:
         description: PRTS是一个非盈利性质的明日方舟资料Wiki网站
         tags: PRTS,明日方舟,明日方舟Arknights,Arknights,明日方舟wiki
       - title: 企鹅物流数据统计
-        logo: ../assets/images/arknights/penguin_stats_logo.webp
+        logo: https://penguin.upyun.galvincdn.com/logos/penguin_stats_logo.png
         url: https://penguin-stats.cn/
         description: 企鹅物流数据统计是企鹅物流旗下数据处理部门，致力于明日方舟各素材的掉率统计。
         tags: 企鹅物流,明日方舟,明日方舟Arknights,Arknights,企鹅物流数据统计
@@ -75,29 +75,14 @@ categories:
         url: https://aistudio.baidu.com/application/detail/7413
         description: 修仙插件炼丹材料一览
         tags: 修仙, 炼丹, 材料, 一览
-  #     - title: BestXTools 社区
-  #       logo: https://discuss-cn.bestxtools.com/assets/favicon-ynnfvqi5.png
-  #       url: https://discuss-cn.bestxtools.com/
-  #       description: BestXTools 社区是一个发现并分享有趣，有创意，免费、好用的工具的非商业性质的，独立的，开放的社区。
-  #       tags: 在线工具,周刊,社区
-  #     - title: Pipecraft 社区
-  #       logo: https://discuss-cn.pipecraft.net/assets/favicon-jtrdedht.png
-  #       url: https://discuss-cn.pipecraft.net/
-  #       description: 这里是可以自由交流关于 RSS, Atom, JSON Feed, 聚合新闻，内容订阅等话题的地方。
-  #       tags: RSS,Atom,聚合新闻,内容订阅
-  #     - title: 纵横网址导航
-  #       logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="80">纵</text></svg>
-  #       url: https://zh.pipecraft.net/
-  #       description: 收集小而美的中文垂直社区，微社区，垂直网址导航的网址导航网站。
-  #       tags: 网址导航,中文垂直社区,微社区,垂直网址导航
 
-  # - category: 程序员博客
-  #   icon: linecons-doc
-  #   links:
-  #     - title: 等你来加➕
-  #       logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-  #       url: https://github.com/geneasy/links/issues
-  #       description: 快来交换友情链接吧
+  - category: 个人网站
+    icon: linecons-doc
+    links:
+      - title: 给我赞助
+        logo: https://static.afdiancdn.com/static/img/logo/logo.png
+        url: https://afdian.net/a/amiyabot-tools
+        description: 我的爱发电主页
   #     - title: 等你来加➕
   #       logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
   #       url: https://github.com/geneasy/links/issues

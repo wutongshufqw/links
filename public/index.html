@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>即将跳转</title>
+    <style>
+      p {
+        text-align: center;
+      }
+
+      #time {
+        color: red;
+      }
+    </style>
+    <script>
+    let second = 5;
+    function showTime() {
+      second--;
+      if(second >= 0) {
+        let elementById = document.getElementById('time');
+        elementById.innerHTML = second + "";
+      } else {
+        location.href = "/links"
+      }
+    }
+    setInterval(showTime, 1000);
+  </script>
+</head>
+<body>
+  <p align="center">
+    <span id="time">
+      5
+    </span>
+    秒之后自动跳转页面...
+  </p>
+</body>
+</html>
