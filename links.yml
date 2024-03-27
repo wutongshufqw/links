@@ -75,6 +75,11 @@ categories:
         url: https://aistudio.baidu.com/application/detail/7413
         description: 修仙插件炼丹材料一览
         tags: 修仙, 炼丹, 材料, 一览
+      - title: 星极在看戏
+        logo: assets/images/eatSugar/ClickBefore.png
+        url: game/eatSugar
+        description: 音游练习器
+        tags: 星极, 音游, 练习器, 指力
 
   - category: 个人网站
     icon: linecons-doc
