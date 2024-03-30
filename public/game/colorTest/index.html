@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>澄闪的色弱测试</title>
+    <meta
+      name="description"
+      content="你想知道自己的色彩分辨能力有多强嗎？快来進进行免费的色觉测试。"
+    />
+    <meta name="keywords" content="色觉测试,色弱测试,手机游戏,小游戏" />
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"
+    />
+    <link rel="stylesheet" href="m.css" />
+    <link
+      rel="shortcut icon"
+      href="/assets/images/favicon_logosc/favicon.ico"
+    />
+  </head>
+  <body>
+    <div id="adsContainer">
+      <div id="adContainer_logo"></div>
+      <div id="adContainer"></div>
+    </div>
+    <div class="grid">
+      <div class="page hide" id="loading">loading...</div>
+      <div class="page hide" id="index">
+        <h1>澄闪的色弱测试</h1>
+        <br />
+        <h1>The GoldenGlow !</h1>
+        <div id="help">
+          找出所有色块里颜色不同的一个 <br />Click on the tile that has a
+          different color
+        </div>
+        <div class="btns">
+          <button data-type="color" class="btn play-btn">PLAY</button>
+        </div>
+      </div>
+      <div class="page hide" id="room">
+        <header>
+          <span class="lv">
+            得分：
+            <em> 1 </em>
+          </span>
+          <span class="time"> 60 </span>
+          <span class="btn btn-pause"> PAUSE </span>
+        </header>
+        <div id="box" class="lv1"></div>
+        <br />
+      </div>
+      <div class="page hide" id="dialog">
+        <div class="inner">
+          <div class="content share">
+            <p>经鉴定，您是：</p>
+            <h3></h3>
+            <div class="btn-wrap">
+              <a class="btn btn-boyaa" href="javascript:location.reload();" onclick="javascript:do_share();"
+                >Share</a
+              >
+              <a href="#" class="btn btn-boyaa">
+                Play Again
+              </a>
+            </div>
+          </div>
+          <div class="content gameover">
+            <p>经鉴定，您是：</p>
+            <h3></h3>
+            <div class="btn-wrap">
+              <a href="javascript:location.reload();" class="btn btn-boyaa">重新开始</a>
+              <a href="/" class="btn btn-boyaa" target="_blank">更多游戏</a>
+            </div>
+            <br />
+          </div>
+          <div class="content pause">
+            <h3>游戏暂停</h3>
+            <div class="btn-wrap">
+              <button class="btn btn-resume">CONTINUE</button>
+            </div>
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    setInterval(function () {
+      let width = window.innerWidth;
+      let height = window.innerHeight;
+      let img;
+      if (width < height) {
+        img = "url('background_mobile.png')";
+      } else {
+        img = "url('background.png')";
+      }
+      document.body.style.backgroundImage = img;
+      let index = document.getElementById("index");
+      let room = document.getElementById("room");
+      let dialog = document.getElementById("dialog");
+      let loading = document.getElementById("loading");
+      let selectors = [index, room, dialog, loading]
+      for (let i = 0; i < selectors.length; i++) {
+        selectors[i].style.backgroundImage = img;
+        selectors[i].style.backgroundSize = "cover";
+        selectors[i].style.backgroundRepeat = "no-repeat";
+        selectors[i].style.backgroundPosition = "center";
+        selectors[i].style.backgroundAttachment = "fixed";
+        selectors[i].style.backgroundColor = "#f06060";
+      }
+    }, 1000);
+    (function () {
+      var libs = document.createElement("script");
+      libs.type = "text/javascript";
+      libs.async = true;
+      libs.src = "color.min.js";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(libs, s);
+    })();
+  </script>
+</html>

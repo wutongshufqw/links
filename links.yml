@@ -62,11 +62,11 @@ categories:
         tags: 企鹅物流, 明日方舟, Arknights, 企鹅物流数据统计
       - title: 一图流
         logo: assets/images/arknights/one.png
-        url: https://yituliu.site/
+        url: https://ytl.viktorlab.cn
         description: 明日方舟材料掉落地图效率,采购中心性价比,活动商店性价比,物品价值一览
         tags: 素材获取, 一图流, 明日方舟
 
-  - category: 小游戏
+  - category: 热门游戏
     hide_menu: false
     icon: linecons-inbox
     links:
@@ -78,8 +78,63 @@ categories:
       - title: 星极在看戏
         logo: assets/images/eatSugar/ClickBefore.png
         url: game/eatSugar
-        description: 音游练习器
+        description: 亚音游，底力练习器，附带世界排行榜
         tags: 星极, 音游, 练习器, 指力
+      - title: 合成大西瓜
+        logo: assets/images/synthetic/logo.jpg
+        url: game/proxy?url=https://arcxingye.github.io/Synthetic/
+        description: 大西瓜魔改，粉丝向游戏，右上可换球
+        tags: 合成, 二次元, 益智, 脑力
+      - title: 你画我猜
+        logo: https://gartic.io/favicon.ico
+        url: https://gartic.io/
+        description: 在线多人游玩，可以不登陆
+        tags: 你画我猜, 竞赛, 休闲, 脑力
+      - title: 召唤神龙
+        logo: assets/images/summonDragon/logo.jpg
+        url: game/summonDragon
+        description: 经过修改的简单版，大幅降低游戏难度，有手就行
+        tags: 召唤, 神龙, 合成, 益智
+      - title: 3D魔方
+        logo: assets/images/rubik/logo.png
+        url: game/rubik
+        description: 普通的三阶魔方
+        tags: 魔方, 3D, 益智, 脑力
+      - title: 飞翔的小鸟
+        logo: assets/images/flappyBird/icon.png
+        url: game/flappyBird
+        description: 点击操纵小鸟飞跃管道
+        tags: 飞翔, 小鸟, 休闲, 益智
+      - title: 压扁小鸟
+        logo: assets/images/flappyBird/icon.png
+        url: game/squishyBird
+        description: 反向解压小游戏
+        tags: 压扁, 小鸟, 休闲, 益智
+      - title: 切积木
+        logo: assets/images/woodCutting/logo.png
+        url: game/woodCutting
+        description: 要划得又快又长
+        tags: 切割, 积木, 益智, 解压
+      - title: 澄闪的色弱测试
+        logo: assets/images/colorTest/logo.jpeg
+        url: game/colorTest
+        description: 测测你的眼睛过不过关吧
+        tags: 色觉测试, 色弱测试, 手机游戏, 小游戏
+      - title: 扫雷
+        logo: assets/images/mineSweeper/logo.png
+        url: game/mineSweeper
+        description: 经典扫雷游戏
+        tags: 扫雷, 经典, 益智, 休闲
+      - title: 蜘蛛纸牌
+        logo: assets/images/eatSugar/ClickBefore.png
+        url: game/spiderSolitaire
+        description: 经典蜘蛛纸牌游戏
+        tags: 蜘蛛纸牌, 经典, 益智, 休闲
+      - title: Mincraft
+        logo: assets/images/webMC/favicon.png
+        url: game/webMC
+        description: 一个沙盒游戏
+        tags: 沙盒, 创造, 休闲, 益智
 
   - category: 个人网站
     icon: linecons-doc
